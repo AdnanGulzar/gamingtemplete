@@ -1,0 +1,30 @@
+.popular{color: white;
+    background-color: var(--bg-color);
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.popular h2 span {
+
+    font-size: 3rem;
+    color: var(--active);
+   /* text-transform: uppercase; */
+}
+.popular h2  {
+    font-size: 3rem;
+   color: white;
+}
+.cardcont{position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    color: white;
+}
+.cardcont button{
+    position: absolute;
+    bottom: -35px;
+    /* left: 0px; */
+}

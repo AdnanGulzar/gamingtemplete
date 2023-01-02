@@ -1,0 +1,9 @@
+.gamecont {
+  position: relative;
+}
+.gamecont > button {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
